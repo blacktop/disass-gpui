@@ -1,0 +1,10 @@
+[package]
+name = "disass-gpui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gpui = { git = "https://github.com/zed-industries/zed" }
+languages = { git = "https://github.com/zed-industries/zed.git", package = "languages" }
+tree-sitter-asm = "0.24.0"
+toml = "0.5"
